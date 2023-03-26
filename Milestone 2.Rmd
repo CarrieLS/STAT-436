@@ -15,7 +15,7 @@ library(maps)
 ```
 ```{r, message = FALSE}
 #read data set
-population <- read_csv("https://raw.githubusercontent.com/Star732/.csvFile/main/world_population.csv")
+population <- read_csv("https://uwmadison.box.com/shared/static/m75bt67dupbfqkfqn3qlr21io8rbqph1.csv")
 names(population)[3] <- "region"
 ```
 ```{r}
